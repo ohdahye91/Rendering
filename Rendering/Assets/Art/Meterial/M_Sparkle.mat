@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Sparkle
+  m_Shader: {fileID: 4800000, guid: 867fe1060eb186d40adcaa2f36b11318, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _AUTOPLAY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AutoPlay: 1
+    - _Progress: 1
+    - _Speed: 1
+    - _UseCustomData: 0
+    m_Colors:
+    - _ArcColor0: {r: 1, g: 0.95, b: 0.09999997, a: 1}
+    - _ArcColor1: {r: 0.9, g: 0.02, b: 0.19999996, a: 1}
+    - _ArcColor2: {r: 0.65, g: 0.88, b: 0.34999996, a: 1}
+    - _ArcColor3: {r: 0.6, g: 0, b: 0.29999998, a: 1}
+    - _CoreA: {r: 0.19999996, g: 0.65, b: 0.95, a: 1}
+    - _CoreB: {r: 0.78, g: 0.58, b: 0.82, a: 1}
+    - _CoreC: {r: 0.09999997, g: 0.049999982, b: 0.95, a: 1}
+    - _DiamondColor: {r: 0.85, g: 0, b: 0.85, a: 1}
+    - _StarFlickA: {r: 0.88, g: 0, b: 0.85, a: 1}
+    - _StarFlickB: {r: 0.6, g: 0, b: 0.8, a: 1}
+    - _StarGrow: {r: 0.62, g: 0.29999998, b: 0.9, a: 1}
+    - _StarPeak: {r: 0.8, g: 0.29999998, b: 0.8, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
