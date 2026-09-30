@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.coffee.ui-material-property-injector": {
+      "version": "https://github.com/mob-sakai/UIMaterialPropertyInjector.git?path=Packages/src",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "66522cf8a92f23e8bd0a26016b22a7b578231845"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.12",
       "depth": 0,

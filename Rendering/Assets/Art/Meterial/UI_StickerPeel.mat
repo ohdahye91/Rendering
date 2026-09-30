@@ -38,7 +38,7 @@ Material:
     - _CurlSize: 1.24
     - _EdgeHighlight: 0.05
     - _EdgeSoftness: 0.001
-    - _Expand: 3
+    - _Expand: 1
     - _Fold: 0.079
     - _FoldDarkness: 0.65
     - _FoldShade: 0.62

@@ -29,6 +29,8 @@ Shader "VFX/Sparkle"
         _CoreB ("Core B", Color) = (0.78, 0.58, 0.82, 1)
         _CoreC ("Core C", Color) = (0.10, 0.05, 0.95, 1)
         _DiamondColor ("Diamond Flash", Color) = (0.85, 0.00, 0.85, 1)
+
+        _MainTex ("Main Texture", 2D) = "white" {}
     }
 
     SubShader

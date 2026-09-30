@@ -30,13 +30,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Angle: 60.3
-    - _CellSize: 80
+    - _CellSize: 60
     - _ColorMask: 15
-    - _Progress: 0.61
+    - _Progress: 0.386
     - _RefHeight: 1080
     - _Reverse: 0
-    - _Smooth: 4
-    - _Spread: 0.43
+    - _Smooth: 0.5
+    - _Spread: 0.742
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0

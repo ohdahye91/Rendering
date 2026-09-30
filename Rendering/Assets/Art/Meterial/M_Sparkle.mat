@@ -12,8 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _AUTOPLAY_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -26,22 +25,22 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _AutoPlay: 1
-    - _Progress: 1
+    - _AutoPlay: 0
+    - _Progress: 0.59
     - _Speed: 1
     - _UseCustomData: 0
     m_Colors:
-    - _ArcColor0: {r: 1, g: 0.95, b: 0.09999997, a: 1}
+    - _ArcColor0: {r: 1, g: 0.7033489, b: 0.6367924, a: 1}
     - _ArcColor1: {r: 0.9, g: 0.02, b: 0.19999996, a: 1}
     - _ArcColor2: {r: 0.65, g: 0.88, b: 0.34999996, a: 1}
     - _ArcColor3: {r: 0.6, g: 0, b: 0.29999998, a: 1}
     - _CoreA: {r: 0.19999996, g: 0.65, b: 0.95, a: 1}
     - _CoreB: {r: 0.78, g: 0.58, b: 0.82, a: 1}
-    - _CoreC: {r: 0.09999997, g: 0.049999982, b: 0.95, a: 1}
-    - _DiamondColor: {r: 0.85, g: 0, b: 0.85, a: 1}
-    - _StarFlickA: {r: 0.88, g: 0, b: 0.85, a: 1}
-    - _StarFlickB: {r: 0.6, g: 0, b: 0.8, a: 1}
-    - _StarGrow: {r: 0.62, g: 0.29999998, b: 0.9, a: 1}
+    - _CoreC: {r: 0.5958174, g: 0.5771182, b: 0.9339623, a: 1}
+    - _DiamondColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StarFlickA: {r: 0.9339623, g: 0.59474015, b: 0.92336154, a: 1}
+    - _StarFlickB: {r: 0.7439258, g: 0.4285333, b: 0.8490566, a: 1}
+    - _StarGrow: {r: 0.8919382, g: 0.7688679, b: 1, a: 1}
     - _StarPeak: {r: 0.8, g: 0.29999998, b: 0.8, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
