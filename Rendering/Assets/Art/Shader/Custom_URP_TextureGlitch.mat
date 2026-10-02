@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_URP_TextureGlitch
+  m_Shader: {fileID: 4800000, guid: c48062622c1d0e84593cb13c8935b9a2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlockNoiseTex:
+        m_Texture: {fileID: 2800000, guid: beda6a3dcb3de0f4c94342242699fe9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitchTimingTex:
+        m_Texture: {fileID: 2800000, guid: beda6a3dcb3de0f4c94342242699fe9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrainTex:
+        m_Texture: {fileID: 2800000, guid: 3ec8c254e0618d2449061611f29c6d1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _JitterTex:
+        m_Texture: {fileID: 2800000, guid: e9fce12d69f47b94496be9776e055c24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBSplitTex:
+        m_Texture: {fileID: 2800000, guid: 9e6ad377852f07b4bb5ee4df2aea5675, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScanlineTex:
+        m_Texture: {fileID: 2800000, guid: 1955a9a52208a1448b698292f6af8f5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlockAmount: 0.35
+    - _BlockDisplace: 0.08
+    - _GlitchFPS: 12
+    - _GlitchGrainBoost: 2
+    - _GlitchOverride: 0
+    - _GlitchThreshold: 0.63
+    - _GlitchTimingSpeed: 0.15
+    - _GrainFPS: 24
+    - _GrainIntensity: 0.06
+    - _GrainTiling: 4
+    - _IdleJitter: 0.08
+    - _IdleRGBSplit: 0.0015
+    - _InvertChance: 0.1
+    - _JitterAmount: 0.012
+    - _JitterLines: 180
+    - _RGBSplitAmount: 0.025
+    - _RGBSplitTexInfluence: 0.6
+    - _RollIntensity: 0
+    - _RollSpeed: 0.12
+    - _ScanlineCount: 240
+    - _ScanlineIntensity: 0.7
+    - _ScanlineScreenSpace: 0
+    - _ScanlineSpeed: 0.5
+    m_Colors:
+    - _BlockScale: {r: 6, g: 40, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RGBSplitDir: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

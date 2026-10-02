@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Button_Potion
-  m_Shader: {fileID: -6465566751694194690, guid: b4d772a012b6b4ca198262ce1830865c, type: 3}
+  m_Name: M_CircleRepeatDots
+  m_Shader: {fileID: 4800000, guid: f8d1103b21b17904b906fad86cfcee66, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,32 +23,26 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
+    - _DotTex:
+        m_Texture: {fileID: 2800000, guid: cc862033a842486488cddc33edd14e00, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _ColorMask: 15
-    - _Erosion: 1
+    - _Count: 8
+    - _Offset: -0.5
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _UIMaskSoftnessX: 1
-    - _UIMaskSoftnessY: 1
     m_Colors:
-    - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _Color_1: {r: 0.21454181, g: 0, b: 0.4245283, a: 0}
-    - _Color_2: {r: 3.8289042, g: 0.2347914, b: 3.041153, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _UVOffset: {r: -0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -97,7 +97,7 @@ MonoBehaviour:
   - m_PropertyName: _Transition
     m_Type: 3
     m_Int: 0
-    m_Float: 0.03
+    m_Float: 0
     m_Color: {r: 0, g: 0, b: 0, a: 0}
     m_Vector: {x: 0, y: 0, z: 0, w: 0}
     m_Texture: {fileID: 0}
