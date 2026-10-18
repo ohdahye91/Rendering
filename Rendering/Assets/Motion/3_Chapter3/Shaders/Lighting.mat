@@ -65,7 +65,7 @@ Material:
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionOffset: {r: 1, g: 0, b: 0, a: 0}
-    - _DistortionTiling: {r: 1, g: 1.5, b: 0, a: 0}
+    - _DistortionTiling: {r: 1, g: 2, b: 0, a: 0}
     - _Emission: {r: 0.7490197, g: 0.7490197, b: 0.7490197, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}

@@ -50,9 +50,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorMask: 15
-    - _CustomData: 0
     - _Distortion: 0.15
-    - _Erosion: 0
+    - _Erosion: 0.5
     - _Feather: 0.5
     - _PolarCoord: 1
     - _Stencil: 0
@@ -65,7 +64,7 @@ Material:
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionOffset: {r: -0.25, g: 0, b: 0, a: 0}
-    - _DistortionTiling: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _DistortionTiling: {r: 0.2, g: 0, b: 0, a: 0}
     - _Emission: {r: 32, g: 32, b: 32, a: 0}
     - _Offset: {r: -0.5, g: 0, b: 0, a: 0}
     - _Tiling: {r: 0.2, g: 1, b: 0, a: 0}

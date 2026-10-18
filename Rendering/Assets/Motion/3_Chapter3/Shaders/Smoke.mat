@@ -51,7 +51,7 @@ Material:
     m_Floats:
     - _ColorMask: 15
     - _CustomData: 0
-    - _Distortion: 0
+    - _Distortion: 0.1
     - _Erosion: 0.5
     - _Feather: 0.5
     - _PolarCoord: 1
@@ -64,7 +64,7 @@ Material:
     - _UIMaskSoftnessY: 1
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _DistortionOffset: {r: 0.05, g: 0, b: 0, a: 0}
+    - _DistortionOffset: {r: 0.1, g: 0, b: 0, a: 0}
     - _DistortionTiling: {r: 0.25, g: 0.25, b: 0, a: 0}
     - _Emission: {r: 8, g: 8, b: 8, a: 0}
     - _Offset: {r: -0.1, g: 0, b: 0, a: 0}
